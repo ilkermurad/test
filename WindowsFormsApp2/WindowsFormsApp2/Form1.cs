@@ -27,8 +27,10 @@ namespace WindowsFormsApp2
         
         private void Button1_Click(object sender, EventArgs e)
         {
-            if (fp.Control(kelimegir.Text)) Aciklama.Text = "var";
-            else Aciklama.Text = "yök";
+
+           string a =kelimegir.Text;
+            if (fp.Control(a)) Aciklama.Text = "var";
+            else Aciklama.Text = "yok";
             
             
         }
